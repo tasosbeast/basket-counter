@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Basket Counter</title>
+</head>
+<body>
+    <div class="container">
+        <div class="board">
+            <h3>HOME</h3>
+            <div id="home-score"><h4 id="home-score-text">0</h4></div>
+            <div id="home-btn">
+                <button id="1-home" onclick="one()">+1</button>
+                <button id="2-home"  onclick="two()">+2</button>
+                <button id="3-home"  onclick="three()">+3</button>
+            </div>
+        </div>
+        <div class="board">
+            <h3>GUEST</h3>
+            <div id="guest-score"><h4 id="guest-score-text">0</h4></div>
+            <div id="guest-btn">
+                <button id="1-guest" onclick="guestone()" >+1</button>
+                <button id="2-guest" onclick="guesttwo()">+2</button>
+                <button id="3-guest" onclick="guestthree()">+3</button>
+            </div>
+        </div>
+    </div>
+    <button onclick="newgame()">new game</button>
+    <script src="index.js"></script>
+</body>
+</body>
+</html>
